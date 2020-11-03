@@ -4,11 +4,16 @@
 
 using namespace std;
 
+int a=1;
+void foo(int a) {
+	a++;
+}
 
 void main() {
 	setlocale(LC_ALL, "Ru");
-	{int a;
-	a = 10; }
+	foo(2);
+	a++;
+	cout << a<<endl;
 	
 }
 
