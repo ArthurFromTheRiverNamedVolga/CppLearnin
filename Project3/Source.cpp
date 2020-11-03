@@ -3,13 +3,35 @@
 #include<ctime>
 
 using namespace std;
+int sum(int a, int b, int c) {
+	cout << "test" << endl;
+	return a + b+c;
+}
+ int sum(int a, int b) {
+	return a + b;
+}
+double sum(double a, double b) {
+	return a + b;
+}
+void main() {
+	cout << sum(5.1, 6.1) << endl;
+}
+/*void foo(int a=5) {
+	for (int i = 0; i < a; i++) {
+		cout << "*" << endl;
+}
+}
+
+void main6() {
+	foo ();
+}
 
 int a=1;
 void foo(int a) {
 	a++;
 }
 
-void main() {
+void main5() {
 	setlocale(LC_ALL, "Ru");
 	foo(2);
 	a++;
@@ -17,7 +39,7 @@ void main() {
 	
 }
 
-/*void fillarr(int arr[],const int size) {
+void fillarr(int arr[],const int size) {
   
 	for (int i = 0; i < size; i++) {
 		arr[i] = rand() % 10;
@@ -128,7 +150,7 @@ void main1()
 void main() {
 	setlocale(LC_ALL, "Ru");
 	int a;
-	cout << "Введите номер 1-Рандомайзер 2-заполнение двумерного рандомными числами 3-функции";
+	cout << "Введите номер 1-Рандомайзер 2-заполнение двумерного рандомными числами 3-функции 4-тоже функции 5 -области видимости";
 	cin >> a;
 
 	switch(a)
@@ -138,6 +160,10 @@ void main() {
 	case 2: void main2();
 		break;
 	case 3: void main3();
+		break;
+	case 4: void main4();
+		break;
+	case 5: void main5();
 		break;
 	
 	
