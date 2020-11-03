@@ -1,0 +1,19 @@
+﻿"Project3.exe" (Win32). Загружено "C:\Users\Lance and Lord Arthu\source\repos\Project3\Debug\Project3.exe". Символы загружены.
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\ntdll.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel32.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\KernelBase.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcp140d.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\vcruntime140d.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\ucrtbased.dll". 
+Поток 0x2564 завершился с кодом 0 (0x0).
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel.appcore.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcrt.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\rpcrt4.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\sspicli.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\cryptbase.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\bcryptprimitives.dll". 
+"Project3.exe" (Win32). Загружено "C:\Windows\SysWOW64\sechost.dll". 
+Поток 0x39f4 завершился с кодом 0 (0x0).
+Поток 0x1c70 завершился с кодом 0 (0x0).
+Поток 0x30b4 завершился с кодом 0 (0x0).
+Программа "[12904] Project3.exe" завершилась с кодом 0 (0x0).
