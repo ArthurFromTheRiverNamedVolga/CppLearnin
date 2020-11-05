@@ -1,5 +1,6 @@
-#include "stdafx.h"
+
 #include "Symetric.h"
+#include<iostream>
 using namespace std;
 
     //Algorithms for determining symmetric four-digit numbers.If the nuber is simetric , the result is 1;
