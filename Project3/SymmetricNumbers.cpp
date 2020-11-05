@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-void main3() {
-    setlocale(LC_ALL, "Ru");
-    //алгоритмы определения симметричных чисел :в случае симметрии выводят '1' .
-}
+
+    //Algorithms for determining symmetric four-digit numbers.If the nuber is simetric , the result is 1;
+
 void main1() {
     int f;  
     cin >> f;
