@@ -1,21 +1,45 @@
 
 #include<iostream>
 #include<ctime>
+//#include<cmath>
 
 using namespace std;
+
+void main() {
+	int a;
+	cin>> a;
+	
+	cout << (a / 1000 * 10 + a %1000/ 100) / (a % 100/10 + a %10*10 );
+}
+/*int fact(int N) {
+	if (N == 0)
+		return 0;
+	if (N == 1)
+	    return 1;
+
+	return N * fact(N - 1);
+}
+
+void main() {
+	setlocale(LC_ALL, "RU");
+	/*cout << fact(5) << endl;
+	int v, t;
+	cin >> v >> t;
+	int z = fabs(v * t + 109);
+	cout << fabs((109-z) % 109);
+	
+}
+	
 int sum(int a, int b, int c) {
 	cout << "test" << endl;
 	return a + b+c;
 }
- int sum(int a, int b) {
+int sum(int a, int b) {
 	return a + b;
 }
 double sum(double a, double b) {
 	return a + b;
-}
-void main() {
-	cout << sum(5.1, 6.1) << endl;
-}
+}*/
 /*void foo(int a=5) {
 	for (int i = 0; i < a; i++) {
 		cout << "*" << endl;
