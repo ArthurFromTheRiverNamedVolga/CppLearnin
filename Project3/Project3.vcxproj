@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="SymmetricNumbers.cpp" />
+    <ClCompile Include="TaskAboutTheClock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Symetric.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

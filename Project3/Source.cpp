@@ -4,107 +4,37 @@
 //#include<cmath>
 
 using namespace std;
-
-void main() {
-	int a;
-	cin>> a;
-	
-	cout << (a / 1000 * 10 + a %1000/ 100) / (a % 100/10 + a %10*10 );
-}
-/*int fact(int N) {
-	if (N == 0)
-		return 0;
-	if (N == 1)
-	    return 1;
-
-	return N * fact(N - 1);
-}
-
-void main() {
-	setlocale(LC_ALL, "RU");
-	/*cout << fact(5) << endl;
-	int v, t;
-	cin >> v >> t;
-	int z = fabs(v * t + 109);
-	cout << fabs((109-z) % 109);
-	
-}
-	
-int sum(int a, int b, int c) {
-	cout << "test" << endl;
-	return a + b+c;
-}
-int sum(int a, int b) {
-	return a + b;
-}
-double sum(double a, double b) {
-	return a + b;
-}*/
-/*void foo(int a=5) {
-	for (int i = 0; i < a; i++) {
-		cout << "*" << endl;
-}
-}
-
-void main6() {
-	foo ();
-}
-
-int a=1;
-void foo(int a) {
-	a++;
-}
-
-void main5() {
-	setlocale(LC_ALL, "Ru");
-	foo(2);
-	a++;
-	cout << a<<endl;
-	
-}
-
-void fillarr(int arr[],const int size) {
-  
-	for (int i = 0; i < size; i++) {
-		arr[i] = rand() % 10;
-	}
-	
-	
-}
-void printarr(int arr[], const int size) {
-	for (int i = 0; i < size; i++) {
-		cout<< arr[i] <<endl;
-	}
-
-}
-void main4() {
-	setlocale(LC_ALL, "Ru");
-	const int SIZE = 10;
-	int arr[SIZE]{};
-	fillarr(arr, SIZE);
-	printarr(arr,SIZE);
+void ClockByPrintF()
+{
+	int n, h, m, s;
+	cin >> n;
+	h = n / 60 / 60 % 24;
+	m = n / 60 % 60;
+	s = n % 60;
+	printf("%d:%0.2d:%0.2d", h, m, s);
 
 }
 
-  void foo() {
-	setlocale(LC_ALL, "Ru");
-	cout << "функция хуюнкция хуле надо то";
+void ClockByElementaryArithmetic() {
+	int n;
+	cin >> n;
+	cout << n / 3600 % 24 << ":" << n % 3600 / 600 << n / 60 % 10 << ":" << n % 60 / 10 << n % 10;
 }
-int sum(int a,int b) {
-	return a + b;
+
+void SymetricByWholeDigits() {
+	int f;
+	cin >> f;
+	int a1 = f / 1000;
+	int a2 = f / 100 % 10;
+	int a3 = f / 10 % 10;
+	int a4 = f % 10;
+	int n = (a1 - a4) * (a1 - a4) + (a2 - a3) * (a2 - a3) + 1;
+	cout << n;
 }
-void main3() {
-setlocale(LC_ALL, "Ru");
-
-int c;
-int q = 1;
-int w = 12;
-c = sum(q,w);
-cout << c<<endl;
-
-
-
-
+void Symetric9_11() {
+	int num;
+	std::cin >> num;
+	std::cout << num % 11 + num % 1000 / 10 % 11 + 1;
 
 }
 
@@ -174,23 +104,37 @@ void main1()
 void main() {
 	setlocale(LC_ALL, "Ru");
 	int a;
-	cout << "Введите номер 1-Рандомайзер 2-заполнение двумерного рандомными числами 3-функции 4-тоже функции 5 -области видимости";
+	cout << "Введите номер: \n1-Randomizer \n2-Two-dimensional array with auto-fill \n3-SymetricByWholeDigits \n4-Symetric9_11 \n5-ClockByElementaryArithmetic \n6-ClockByPrintF"<<endl;
+
 	cin >> a;
+
 
 	switch(a)
 	{
-	case 1: void main1();
+	case 1: 
+		 main1();
 		break;
-	case 2: void main2();
+		
+	case 2: 
+		 main2();
 		break;
-	case 3: void main3();
+		
+	case 3:
+		 SymetricByWholeDigits();
 		break;
-	case 4: void main4();
+
+	case 4:  
+		 Symetric9_11();
 		break;
-	case 5: void main5();
+
+	case 5:  
+		 ClockByElementaryArithmetic();
 		break;
-	
+
+	case 6:  
+		 ClockByPrintF();
+		break;
+
 	
 	}
-}*/
-
+}
